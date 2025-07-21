@@ -1,0 +1,260 @@
+/* Estrutura do site
+*/
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #070707 url(../imagens/fundo-de-teia-de-aranha-de-halloween-cocnept_23-2148628523.jpg) repeat-x;
+
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#topo {
+	height: 100px;
+	background: url(...imagens/fundo-realista-de-teia-de-aranha-de-halloween_23-2149068118) no-repeat right top;
+	padding-top: 25px;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	width: 210px;
+	height: 210px;
+	background: url(../imagens/ab67656300005f1fcb9fcbbb72e7e49a273c0a6a.jpg) no-repeat center;
+	text-indent: -3000px;
+}
+
+/* Barra de navegação
+*/
+a:link, a:visited {
+	color: #0a0809;
+	padding: 2px;
+}
+
+a:hover {
+	color: #111011;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+	margin-top: 30px;
+	background: #ee0505;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #070707;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil, 
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos 
+{
+	color: #0a0a0a;
+	background: #f80505;
+	cursor: text;
+}
+
+/* Configura layout de três colunas */
+#conteudo {
+	margin-top: 60px;
+	background: #080808;
+}
+
+#lateral {
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+
+#primario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px ;
+}
+
+#duas-colunas #primario {
+	width: 555px;
+}
+
+#uma-coluna #primario {
+	width: 750px;
+	margin: 0 0 20px 0;
+}
+
+#secundario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
+/*Caixa*/
+.caixa {
+	margin: 10px 0;
+	padding: 5px;
+	background: #f10606 url(../imagens/fundo-caixa.png);
+}
+
+h2 {
+	font-size: 1em;
+	background: #0b0c0c;
+	color: #e8e7ec;
+	padding: 5px;
+}
+
+.caixa-conteudo {
+	background: #e2e2ec;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/* Formatar menus laterais
+*/
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f00707;
+}
+
+#lateral ul a:hover {
+	background: #eb0404 url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+}
+
+/* Formatando formulários
+*/
+label {
+	display: block; 
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #f70808;
+	border: 2px solid #f30505;
+}
+
+/*Formatando imagens*/
+img.imagem-principal {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalhos */
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3 {
+	background: #0e0205;
+	color: #fff;
+}
+
+.entrevista h3 {
+	background: #de003e;
+}
+
+/*Formatando lista de notícias*/
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 62px;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #000000;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: #000;
+}
+
+#lista-noticias li:hover {
+	background: #110e0e;
+	cursor: pointer;
+}
+
+
+/*Rodape*/
+#container-rodape {
+	background: #000000;
+	padding: 20px;
+}
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
