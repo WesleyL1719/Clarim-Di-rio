@@ -1,1 +1,1 @@
-# Clarim-Di-rio
+# Clarim Diário
